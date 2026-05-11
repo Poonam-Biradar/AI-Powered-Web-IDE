@@ -1,39 +1,200 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered-Web-IDE
 
-## Getting Started
+An AI-powered web IDE inspired by modern cloud coding platforms like Replit and VS Code, built to provide an interactive coding experience directly in the browser. The platform supports real-time code editing, multi-language execution, AI-assisted debugging, and project management in a clean and responsive interface.
 
-First, run the development server:
+---
+
+# Features
+
+## Code Editor
+
+* Monaco Editor integration for a VS Code-like experience
+* Syntax highlighting and auto-completion
+* Multi-file support
+* Responsive editor layout
+
+## AI Assistance
+
+* AI-powered code suggestions
+* Error analysis and debugging support
+* Smart explanations for runtime and syntax errors
+* Prompt-based coding assistance
+
+## Multi-Language Support
+
+* Run code for different programming languages
+* Real-time output console
+* Terminal-like execution experience
+
+## Authentication
+
+* User signup and login system
+* Secure authentication flow
+* Session management
+
+## Project Management
+
+* Create and manage coding projects
+* Save and organize files
+* Persistent project storage
+
+## Modern UI
+
+* Dark-themed professional interface
+* Smooth animations and responsive design
+* Clean dashboard and editor experience
+
+---
+
+# Tech Stack
+
+## Frontend
+
+* Next.js
+* React.js
+* Tailwind CSS
+* Monaco Editor
+* Shadcn UI
+* Redux Toolkit
+
+## Backend
+
+* Node.js
+* Express.js
+
+## Database
+
+* MongoDB
+* Prisma ORM
+
+## Authentication
+
+* NextAuth / Auth.js
+
+## AI Integration
+
+* OpenAI API / AI Models
+
+---
+
+# Project Structure
+
+```bash
+AI-Powered-Web-IDE/
+│
+├── frontend/               # Frontend application
+├── backend/                # Backend APIs and services
+├── prisma/                 # Prisma schema and database configuration
+├── public/                 # Static assets
+├── components/             # Reusable UI components
+├── pages/                  # Application pages
+├── lib/                    # Utility functions
+├── styles/                 # Global styles
+└── README.md
+```
+
+---
+
+# Installation & Setup
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Poonam-Biradar/AI-Powered-Web-IDE.git
+cd AI-Powered-Web-IDE
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Setup Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+DATABASE_URL=your_database_url
+NEXTAUTH_SECRET=your_secret_key
+OPENAI_API_KEY=your_openai_api_key
+```
+
+## Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Auth feature work
+The application will run on:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+http://localhost:3000
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Screenshots
 
-## Learn More
+Add project screenshots here.
 
-To learn more about Next.js, take a look at the following resources:
+Example:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Dashboard
+* Code Editor
+* AI Assistant
+* Authentication Page
+* Project Workspace
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Real-time collaboration
+* AI code generation
+* Docker-based isolated execution
+* Voice-enabled coding assistant
+* GitHub integration
+* Deployment support
+* Team workspaces
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# AI-Powered-Web-IDE" 
+---
+
+# Learning Outcomes
+
+This project helped in understanding:
+
+* Full-stack application architecture
+* Authentication and authorization
+* AI integration in web applications
+* State management using Redux
+* Database modeling with Prisma and MongoDB
+* Modern UI/UX practices
+* API handling and project structure
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+# Author
+
+## Biradar Poonam
+
+* GitHub: [https://github.com/Poonam-Biradar](https://github.com/Poonam-Biradar)
+* LinkedIn: Add your LinkedIn profile link here
